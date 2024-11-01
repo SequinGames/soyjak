@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+	<id>io.github.SequinGames.Soyjak</id>
+	<metadata_license>CC-BY-4.0</metadata_license>
+	<project_license>MIT</project_license>
+	<developer_name>SequinGames</developer_name>
+	<launchable type="desktop-id">io.github.SequinGames.Soyjak.desktop</launchable>
+	<name>Soyjak Shooter</name>
+	<summary>3D Maze FPS with Jump Scares</summary>
+	<description>
+		Inspired by the Backrooms &amp; Nextbots.
+		<ul>
+			<li>🖥️ DESKTOP</li>
+			<li>ESCAPE to release mouse lock.</li>
+			<li>Arrow Keys or WASD to Move Around.</li>
+			<li>Mouse Move to Look Around.</li>
+			<li>Left Click to Shoot.</li>
+			<li>Right Click to 180° turn.</li>
+			<li>💻 KEYBOARD</li>
+			<li>WASD = Move.</li>
+			<li>J/L = Look Left/Right.</li>
+			<li>SPACE = Shoot.</li>
+			<li>E = 180° turn.</li>
+			<li>R = Reset game.</li>
+			<li>F = FPS to console.</li>
+			<li>1-9 = Adjusts mouse sensitivity.</li>
+			<li>0 = Resets mouse sensitivity.</li>
+			<li>🎮 Also works with an XBOX controller.</li>
+		</ul>
+		<p>If you like this tech demo game check out Hyperborea on Steam.</p>
+		<p>Or the web based tech demos with sound on Itch: silentrooms.itch.io</p>
+	</description>
+	<screenshots>
+		<screenshot type="default">
+			<image>https://</image>
+			<caption>3D Survival horror First-person shooter with jump scares.</caption>
+		</screenshot>
+	</screenshots>
+	<url type="homepage">https://store.steampowered.com/app/3290500/Hyperborea/</url>
+	<url type="contact">https://silentrooms.itch.io</url>
+	<releases>
+		<release version="1.0" date="2024-10-10" />
+	</releases>
+	<content_rating type="oars-1.0" />
+</component>
