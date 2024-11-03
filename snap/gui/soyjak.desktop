@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Soyjak Shooter
+Comment=3D Maze FPS with Jump Scares
+StartupNotify=false
+Exec=soyjak
+Icon=${SNAP}/meta/gui/soyjak.png
+Terminal=false
+Type=Application
+Categories=Game;ArcadeGame;KidsGame;Shooter
