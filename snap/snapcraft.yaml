@@ -1,0 +1,41 @@
+name: soyjak
+base: core22
+version: '1.0'
+license: GPL-2.0-only
+summary: 3D Maze FPS with Jump Scares
+description: 3D Maze FPS with Jump Scares
+
+grade: stable
+confinement: strict
+
+architectures:
+  - build-on: [amd64]
+    build-for: [amd64]
+  - build-on: [arm64]
+    build-for: [arm64]
+  - build-on: [armhf]
+    build-for: [armhf]
+
+apps:
+  soyjak:
+    extensions: [gnome]
+    command: soyjak
+    plugs:
+    - desktop
+    - desktop-legacy
+    - gsettings
+    - opengl
+    - wayland
+    - x11
+    - joystick
+
+parts:
+  soyjak:
+    source: https://github.com/SequinGames/soyjak
+    source-type: git
+    plugin: make
+    source-subdir: pap
+    build-packages:
+    - libsdl2-dev
+    stage-packages:
+    - libsdl2-2.0-0
