@@ -34,7 +34,7 @@ parts:
     source: https://github.com/SequinGames/soyjak
     source-type: git
     plugin: make
-    source-subdir: pap
+    source-subdir: snap
     build-packages:
     - libsdl2-dev
     stage-packages:
